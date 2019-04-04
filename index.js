@@ -7,6 +7,18 @@ function takeANumber (line, name){
 //array  and returns a formatted  greeting string with the persons name and
 //place in line. 
 
+var ticketNumber = 0
+function takeANumberAlt (line){
+  ticketNumber++
+  line.push(ticketNumber)
+  return ticketNumber
+}
+function resetTicketNumber(){
+  ticketNumber = 0
+  return ticketNumber
+}
+
+
 function nowServing (line){
   if(line.length > 0){
     var serving = line[0]
