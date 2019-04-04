@@ -5,7 +5,7 @@ function takeANumber (line, name){
 //Function takeANumber accepts a name(to be aded to the line) and array
 //(representing a list of people currently in line), appends the name to the
 //array  and returns a formatted  greeting string with the persons name and
-//place in line. 
+//place in line.
 
 var ticketNumber = 0
 function takeANumberAlt (line){
